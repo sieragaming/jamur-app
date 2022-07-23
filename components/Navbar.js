@@ -26,15 +26,7 @@ function Navbar() {
     router.push('/')
     return
   }
-  const adminRouter = () => {
-    return (
-      <>
-        <Link href="/categories">
-          <a className="dropdown-item"><i className="fas fa-list mr-2"></i>Kategori</a>
-        </Link>
-      </>
-    )
-  }
+
 
   const loggedRouter = () => {
     return (
@@ -51,9 +43,6 @@ function Navbar() {
           <Link href="/profile">
             <a className="dropdown-item"><i className="fas fa-user mr-2"></i>Profil</a>
           </Link>
-          {
-            auth.user.role === 'admin' && adminRouter()
-          }
           <div className="dropdown-divider"></div>
           <button className="dropdown-item" onClick={handleLogout}><i className="fas fa-right-from-bracket mr-2"></i>Keluar</button>
         </div>
