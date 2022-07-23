@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:3000"
+const baseUrl = "https://jamur-app.netlify.app"
 
 export const getData = async (url, token) => {
   const res = await fetch(`${baseUrl}/api/${url}`, {
