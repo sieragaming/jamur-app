@@ -21,7 +21,7 @@ function Home(props) {
             </div>
             <div className="col-lg-6">
               <h4 className="display-5 fw-bold lh-1 mb-3 text-uppercase">Jamur Tiram Segar</h4>
-              <p className="lead">Cocok Buat Usaha Cafe Atau Di Konsumsi Sendiri 100% Halal Dan Dijamin Masih Fresh, Minat Pesan Disini</p>
+              <p className="lead">Jamur Tiram Segar Ini 100% Halal dan Aman Karena Dipanen Langsung Dari Petani Jamur Tiram <br /> UD. PUTRA AGUNG Ini Beralamat Di Dusun Kunir Desa Singojuruh</p>
             </div>
           </div>
         </div>

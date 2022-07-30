@@ -28,5 +28,4 @@ function Notify() {
     </>
   )
 }
-
 export default Notify

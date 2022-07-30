@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 import { DataContext } from '../utils/GlobalState';
 import Cookie from 'js-cookie'
 
-
 function Navbar() {
   const router = useRouter();
 
@@ -26,7 +25,6 @@ function Navbar() {
     router.push('/')
     return
   }
-
 
   const loggedRouter = () => {
     return (
@@ -56,7 +54,7 @@ function Navbar() {
         <Link href="/">
           <a className="navbar-brand">
             <img src="/image/gambar1.png" alt="" width="30" height="24" className="d-inline-block align-text-top white" />
-            <span className='text-uppercase fw-bold ms-3'>Toko Jamur Tiram</span>
+            <span className='text-uppercase fw-bold ms-3'>UD. PUTRA AGUNG</span>
           </a>
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

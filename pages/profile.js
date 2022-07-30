@@ -135,7 +135,7 @@ function Profile() {
                       <div className='col-md-8'>
                         <div className="form-group">
                           <label htmlFor="name">Nama</label>
-                          <input type="text" name="username" value={username} className="form-control"
+                          <input type="text" name="username" defaultValue={username} className="form-control"
                             onChange={handleChange} />
                         </div>
                         <div className="form-group">
